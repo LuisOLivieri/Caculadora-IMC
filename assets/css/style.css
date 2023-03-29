@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(4, 111, 250);
+    --primary-color-darker: rgb(53, 190, 231);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #caf0f8;
+    font-family: 'Roboto';
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 430px;
+    margin: 50px auto;
+    background: rgb(248, 248, 248);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 110px;
+    border-top: 2px solid rgb(42, 111, 238);
+    border-left: 2px solid rgb(42, 111, 238);;
+    border-bottom: 2px solid rgb(42, 111, 238);
+    border-right: 2px solid rgb(42, 111, 238);;
+   
+}
+
+form input, form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0;
+}
+
+form label {
+    text-transform: uppercase
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 110px;
+    width: 40%;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+}
+
+form button:active { /*BOTAO CLICADO*/
+    background: red;
+}
+
+.paragrafo-resultado {
+    background: rgb(3, 198, 247);
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(255, 0, 0);
+    padding: 10px 20px;
+}
+
+.dicas {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 0px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.dicas-peso {
+    max-width: 400px;
+    border-radius: 20px;
+    border-top: 2px solid rgb(42, 111, 238);
+    border-left: 2px solid rgb(42, 111, 238);;
+    border-bottom: 2px solid rgb(42, 111, 238);
+    border-right: 2px solid rgb(42, 111, 238);;
+}
